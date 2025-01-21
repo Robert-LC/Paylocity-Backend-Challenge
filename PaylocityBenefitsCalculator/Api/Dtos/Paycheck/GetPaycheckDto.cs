@@ -8,11 +8,11 @@ namespace Api.Dtos.Paycheck
         /// <summary>
         /// The date in which the Paycheck / Pay period starts on
         /// </summary>
-        public DateOnly PeriodStart { get; set; }
+        public DateTime PeriodStart { get; set; }
         /// <summary>
         /// The date in which the Paycheck / Pay period ends on
         /// </summary>
-        public DateOnly PeriodEnd { get; set; }
+        public DateTime PeriodEnd { get; set; }
         /// <summary>
         /// The period's pay before any deductions
         /// </summary>
